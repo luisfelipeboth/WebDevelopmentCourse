@@ -19,11 +19,86 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      background-color: green;
+      width: 748px;
+      height: 748px;
+      display: grid;
+      grid-template-columns: 320px 9px 198px 9px 153px 9px 50px;
+      grid-template-rows: 414px 9px 130px 11px 155px 9px 20px;
+    }
+    #red {
+      background-color: #E72F24;
+    }
+    #white {
+      background-color: #F0F1EC;
+    }
+    #black {
+      background-color: #232629;
+    }
+    #blue {
+      background-color: #004592;
+    }
+    #yellow {
+      background-color: #F9D01E;
+    }
+    #gap {
+      background-color: #000;
+    }
+    #white.row1 {
+      grid-column: span 5;
+    }
+    .row2 {
+      grid-column: span 7;
+    }
+    .row3 {
+      grid-row: span 3;
+    }
+    #white.row3.second {
+      grid-column: span 3;
+    }
+    #blue.row3 {
+      grid-row: span 1;
+    }
+    #white.row5 {
+      grid-row: span 3;
+    }
+    #gap.row6 {
+      grid-column: span 6;
+    }
   </style>
 </head>
 
 <body>
   <!-- Write your HTML here -->
+  <div class="container">
+    <div class="row1" id="red"></div>
+    <div class="row1" id="gap"></div>
+    <div class="row1" id="white"></div>
+    <div class="row2" id="gap"></div>
+    <div class="row3 first" id="white"></div>
+    <div class="row3" id="gap"></div>
+    <div class="row3 second" id="white"></div>
+    <div class="row3" id="gap"></div>
+    <div class="row3" id="blue"></div>
+    <div class="row4" id="gap"></div>
+    <div class="row5" id="white"></div>
+    <div class="row6" id="gap"></div>
+    <div class="row7" id="white"></div>
+    <div class="row7" id="gap"></div>
+    <div class="row7" id="yellow"></div>
+    <div class="row7" id="gap"></div>
+    <div class="row7" id="black"></div>
+    <div class="row7" id="gap"></div>
+  </div>
 </body>
 
 </html>
