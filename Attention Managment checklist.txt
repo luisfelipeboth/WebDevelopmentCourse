@@ -1,0 +1,6 @@
+1- Hierarchy
+	(Color and Size)
+2- Layout
+3- Alignment
+4- White Space
+5- Audience

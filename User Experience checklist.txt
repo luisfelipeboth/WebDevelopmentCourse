@@ -1,0 +1,7 @@
+1- Simplicity
+2- Consistency
+3- Reading Patterns
+	(The F-layout or the Z-layout)
+4- All plataform design
+5- Don't use your powers for evil
+	(e.g. Highlight the most expensive delivery)
